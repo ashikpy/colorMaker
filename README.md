@@ -1,0 +1,3 @@
+As you'll see in app.js and hex.js, they both start with an array, in app.js you can add as many things you would like to increase the randomness, but It's recommended to leave it alone in hex because more than 6 things in that array and it wont work.
+They both look very similar, the only difference being in the middle, where in hex, it uses a for loop to grab a 6 random inputs which it will then stop. document.body.style.backgroundColor is what gets cahnged once the 6 inputs are randomly selected.
+In app it just randomly selects one of the inputs in the color array,  Math and its .random method are vital for functionality in both app.js and hex.js.
