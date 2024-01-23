@@ -1,8 +1,11 @@
-*, ::before, ::after {
+*,
+::before,
+::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .navcenter {
@@ -17,7 +20,7 @@ h4 {
 
 .nav-links {
     display: flex;
-    margin-right: 30px;  
+    margin-right: 30px;
 }
 
 .nav-links li {
@@ -38,7 +41,7 @@ a:hover {
     color: rgba(73, 73, 73, 0.63);
 }
 
-.container{
+.container {
     display: flex;
     justify-content: center;
     margin: 0;
@@ -54,6 +57,43 @@ a:hover {
 }
 
 .btn {
-    width: 50px;
-    height: 30px;
+    padding: 10px;
+}
+
+.new-btn {
+    margin-top: 40px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button {
+    background-color: #3498db;
+    color: #ffffff;
+    border: 2px solid #3498db;
+}
+
+.button:hover {
+    background-color: #ffffff;
+    color: #3498db;
+}
+
+.button.primary {
+    background-color: #2ecc71;
+    color: #ffffff;
+    border: 2px solid #2ecc71;
+}
+
+.button.primary:hover {
+    background-color: #ffffff;
+    color: #2ecc71;
 }
